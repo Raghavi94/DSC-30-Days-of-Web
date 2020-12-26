@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <style>
+        body{
+            text-align:center;
+        }
+        table,th,td{
+            border:1px solid black;
+            border-collapse:collapse;
+            margin:auto;
+        }
+        th,td{
+            padding:3px;
+        }
+        #subm{
+            background-color:green;
+            color:white;
+        }
+        #subm:hover{
+            background-color:white;
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/r.jpeg" height="200px" width="200px">
+        <h2>Hi ! I am <i>Raghavi</i></h2>
+        <caption><p>Explorer | Tech Enthusiast</p></caption>
+    </header>
+
+    <table style="width:50%">
+        <tr>
+          <th>Education</th>
+          <th>Percentage</th>
+          <th>Skills</th>
+          <th>Hobbies</th>
+        </tr>
+        <tr>
+          <td>SVCE</td>
+          <td>9.0 CGPA</td>
+          <td>
+              <ul>
+                  <li>C</li>
+                  <li>Python</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Git</li>
+              </ul>
+          </td>
+         <td>
+                <ol>
+                    <li>Blogging</li>
+                    <li>Singing</li>
+                    <li>Listening to music</li>
+                </ol>
+        </td>
+        </tr>
+      </table>
+      <h2>Contact me:</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="Enter your name"><br>
+
+        <label for="name">Email:</label>
+        <input type="text" id="email" name="email" value="Enter your mail id"><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea name="message">Enter your message</textarea>
+        <br> <input type="submit" id="subm">
+        
+     </form>
+      <footer>
+          <p>Made with &hearts; and &lt;/&gt; by Raghavi</p>
+      </footer>
+</body>
+</html>
